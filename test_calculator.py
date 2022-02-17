@@ -18,3 +18,6 @@ class TestCalculator:
 
     def test_division(self):
         assert 5 == calculator.division(25, 5)
+
+    def test_remainder(self):
+        assert 2 == calculator.remainder(8, 3)
